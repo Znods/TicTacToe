@@ -63,7 +63,7 @@ void checkWin(char *A, char playerc){
 
 int main(){
     char playerc;
-    int player, winner, rounds, mark;
+    int player, rounds, mark;
     char *A = (char*)malloc(3*3 * sizeof(char));
     do{
         playerc = (playerc = mark) ? 'X' : 'O';
